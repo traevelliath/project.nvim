@@ -53,7 +53,7 @@ Install the plugin with your preferred package manager:
 
 ```vim
 " Vim Script
-Plug 'ahmedkhalf/project.nvim'
+Plug 'traevelliath/project.nvim'
 
 lua << EOF
   require("project_nvim").setup {
@@ -69,7 +69,7 @@ EOF
 ```lua
 -- Lua
 use {
-  "ahmedkhalf/project.nvim",
+  "traevelliath/project.nvim",
   config = function()
     require("project_nvim").setup {
       -- your configuration comes here
